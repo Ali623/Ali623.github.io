@@ -18,7 +18,7 @@
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 568px) and (max-width: 991px) {
   /* Navbar */
   nav {
     padding: 10px 15px;
@@ -370,4 +370,5 @@
     display: inline-block;
     margin-right: 0;
   }
+  
 }
