@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.alekseenok.com)",
+      "Bash(grep -n 'style=\"[^\"]*\\\\\\(color\\\\|background\\\\\\)' \"C:\\\\Users\\\\z0050zwc\\\\Documents\\\\personal\\\\Ali623.github.io\\\\index.html\")",
+      "Read(//tmp/**)"
+    ]
+  }
+}
