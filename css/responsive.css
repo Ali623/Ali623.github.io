@@ -22,27 +22,34 @@
   /* Navbar */
   nav {
     padding: 10px 15px;
+    background: #112A46 !important;
   }
   .nav-menu {
     margin-top: 40px;
     display: none;
     float: none;
     width: 100%;
+    background: #112A46;
   }
   .nav-menu li {
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid rgba(255,255,255,0.12);
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  nav ul li a,
+  nav.nav-scrolled ul li a {
+    color: rgba(255,255,255,0.90) !important;
+  }
   .responsive {
     float: right;
     padding-top: 15px;
     display: block;
+    color: #ffffff;
   }
   /* About */
   .head-info .header-content .cmaster h1 {
@@ -93,27 +100,43 @@
   /* Navbar */
   nav {
     padding: 20px 15px;
+    background: #112A46 !important;
   }
   .nav-menu {
     margin-top: 40px;
     display: none;
     float: none;
     width: 100%;
+    background: #112A46;
   }
   .nav-menu li {
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid rgba(255,255,255,0.12);
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  nav ul li a,
+  nav.nav-scrolled ul li a {
+    color: rgba(255,255,255,0.90) !important;
+  }
   .responsive {
     float: right;
     padding-top: 15px;
     display: block;
+    color: #ffffff;
+  }
+  /* Hero text responsive */
+  .header-content h1 {
+    font-size: 36px;
+    white-space: normal;
+    letter-spacing: 0;
+  }
+  #header .header-content {
+    max-width: 100%;
   }
   /* About */
   .head-info .header-content h1 {
@@ -164,6 +187,7 @@
   /* Navbar */
   nav {
     padding: 20px 15px;
+    background: #112A46 !important;
   }
   .nav-menu {
     margin-top: 40px;
@@ -175,16 +199,21 @@
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid rgba(255,255,255,0.12);
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  nav ul li a,
+  nav.nav-scrolled ul li a {
+    color: rgba(255,255,255,0.90) !important;
+  }
   .responsive {
     float: right;
     padding-top: 15px;
     display: block;
+    color: #ffffff;
   }
   /* About */
   .head-info .header-content h1 {

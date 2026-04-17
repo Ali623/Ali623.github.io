@@ -52,14 +52,10 @@ $(document).ready(function() {
 
 
   $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll > 200 ) {
-      $("#main-nav, #main-nav-subpage").slideDown(700);
-      $("#main-nav-subpage").removeClass('subpage-nav');
+    if ($(window).scrollTop() > 80) {
+      $("#main-nav").addClass('nav-scrolled');
     } else {
-      $("#main-nav").slideUp(700);
-      $("#main-nav-subpage").hide();
-      $("#main-nav-subpage").addClass('subpage-nav');
+      $("#main-nav").removeClass('nav-scrolled');
     }
   });
 
